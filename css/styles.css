@@ -142,11 +142,25 @@ ul,ol{
     color: var(--primery-text-color);
     padding-top: 32px;
     padding-bottom: 32px;
+
+    position: relative;
 }
 .topbar-navigation-link:hover,
 .topbar-navigation-link:focus{
     color: var(--text-hover-color);
 }
+
+/* .topbar-navigation-link:hover:after, 
+.topbar-navigation-link:hover:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -3px;
+    width: 48px;
+    height: 4px;
+    background-color: var(--text-hover-color);
+    border-radius: 2px;
+} */
 
 /* ----------------------------- header contacts ----------------------------- */
 .topbar-contacts-list{
