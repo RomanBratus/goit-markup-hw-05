@@ -155,17 +155,27 @@ ul,ol{
     color: var(--text-hover-color);
 }
 
-/* .topbar-navigation-link:hover:after, 
-.topbar-navigation-link:hover:after {
+.active-main::after{
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: 1px;
     left: -3px;
     width: 48px;
     height: 4px;
     background-color: var(--text-hover-color);
     border-radius: 2px;
-} */
+}
+
+.active-porfolio::after{
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: -4px;
+    width: 78px;
+    height: 4px;
+    background-color: var(--text-hover-color);
+    border-radius: 2px;
+}
 
 /* ----------------------------- header contacts ----------------------------- */
 .topbar-contacts-list{
